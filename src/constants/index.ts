@@ -197,7 +197,7 @@ const projects: TProject[] = [
           },
           {
               name: "MongoDB",
-              color: "red-text-gradient",
+              color: "blue-text-gradient",
           },
           {
               name: "ExpressJS",
@@ -209,11 +209,11 @@ const projects: TProject[] = [
           },
           {
               name: "NodeJS",
-              color: "purple-text-gradient",
+              color: "pink-text-gradient",
           },
           {
               name: "GraphQL",
-              color: "grey-text-gradient",
+              color: "blue-text-gradient",
           },
     ],
     image: carrent,
