@@ -7,9 +7,6 @@
 [![Fork](https://img.shields.io/github/forks/ladunjexa/reactjs18-3d-portfolio?style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/forks)
 [![GitHub commits](https://img.shields.io/github/commit-activity/t/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/commits)
 [![Pull requests](https://img.shields.io/github/issues-pr/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/pulls)
-
-![demo](.github/README_ASSETS/3d-portfolio.png)
-
 [![License](https://img.shields.io/github/license/ladunjexa/reactjs18-3d-portfolio?color=dddddd&labelColor=000000)](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE)
 [![Top Language](https://img.shields.io/github/languages/top/ladunjexa/reactjs18-3d-portfolio?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
 [![Contributors](https://img.shields.io/github/contributors/ladunjexa/reactjs18-3d-portfolio?style=flat&color=orange&label=Contributors)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
@@ -267,22 +264,6 @@ You can also deploy this Next.js app with [Netlify](https://www.netlify.com/).
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/reactjs18-3d-portfolio)
 
 Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## 🔧 Contributing
-
-[![contributors](https://contrib.rocks/image?repo=ladunjexa/reactjs18-3d-portfolio)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and
-create. Any contributions you make are **greatly appreciated**.
-
-To fix a bug or enhance an existing module, follow these steps:
-
-1. Fork the repo
-2. Create a new branch (`git checkout -b improve-feature`)
-3. Make the appropriate changes in the files
-4. Commit your changes (`git commit -am 'Improve feature'`)
-5. Push to the branch (`git push origin improve-feature`)
-6. Create a Pull Request 🎉
 
 ### 📩 Bug / Feature Request
 
