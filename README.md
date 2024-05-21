@@ -275,24 +275,7 @@ If you'd like to request a new function, feel free to do so by opening an issue
 [here](https://github.com/ladunjexa/reactjs18-3d-portfolio/issues/new). Please include sample
 queries and their corresponding results.
 
-## 💎 Acknowledgements
-
-I'd like to express my gratitude to the following people who helped me with this project and made it
-possible:
-
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Three.js](https://threejs.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [React Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component)
-- [React Parallax Tilt](https://www.npmjs.com/package/react-parallax-tilt)
-- [Maath](https://www.npmjs.com/package/maath)
-- [EmailJS](https://www.emailjs.com/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Vercel](https://vercel.com/)
-- [JavaScript Mastery](https://www.jsmastery.pro/)
-
 ## 📞 Contact Us
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ladunjexa-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/anaybaid/)
-[![Instagram](https://img.shields.io/badge/Instagram-ladunjexa-grey?style=flat&logo=instagram&logoColor=b0c0c0&labelColor=8134af)](https://www.instagram.com/anay.baid)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-anaybaid-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/anaybaid/)
+[![Instagram](https://img.shields.io/badge/Instagram-anaybaid-grey?style=flat&logo=instagram&logoColor=b0c0c0&labelColor=8134af)](https://www.instagram.com/anay.baid)
