@@ -22,7 +22,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -51,19 +50,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Data Analysis, Engineering & Production",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Software Administration",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software Engineering",
     icon: creator,
   },
 ];
@@ -114,10 +113,6 @@ const technologies: TTechnology[] = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -125,148 +120,125 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Data Engineering & Analysis",
+    companyName: "Cineplex Entertainment LP",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Performed comprehensive data quality assessments across multiple datasets, resolving over 200 anomalies through rigorous testing and collaborative problem-solving..",
+      "Improved show-time optimization ML algorithm by 15% through model evaluations, fine-tuning, and data validation.",
+      "Validated of 10TB data to Azure, ensuring 99% data integrity and automated data reporting workflows, reducing report generation time by 70%.",
+      "Implemented data governance protocols via a coding management project implementing SQL Schema Compare and Git tools through Python shell scripting, achieving 100% compliance with industry standards.",
+      "Developed custom data cube connections on the Cineplex Homepage Dashboard Power BI report, ran multiple testing scripts, & enhanced box office records displays via comprehensive data incident validation & tracking."
+      ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Software Administration Intern",
+    companyName: "Alterra Mountain Company",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+        "Implemented a Management System with Cenium 9, for a 20% reduction in check-in time via data streamlining.",
+        "Enhanced the existing database scalability to handle 10,000+ guest records, achieving a 30% faster data retrieval in Tapechart via optimized indexing.",
+        "Independently utilized Power BI for generating monthly reports, identifying upsell opportunities and driving a 15% revenue increase through data insights.",
+      ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Frontend Developer & Data Science Intern",
+    companyName: "Nytia Health",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+        "Integrated libraries TensorFlow & Scikit-learn into Android watches, optimized data processing & efficiency by 20%.",
+        "Leveraged Python and R with the Google BigQuery API, achieving a data processing rate of 1.5 Mbps.",
+        "Developed real-time data visualization dashboards from A/B testing using Tableau, streamlining decision-making processes by 30%.",
+      ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
+    title: "Software Developer Intern",
+    companyName: "VeDA Corporation",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+        "Reduced manual testing by 40% using Selenium-based scripts for content maintenance.",
+        "Leveraged the Splunk monitoring tool and Docker for proactive identification and resolution of infrastructure issues, resulting in a 55% decrease in website downtime.",
+        "Incorporated performance testing using Apache JMeter, identified and resolved bottlenecks resulting in a 10% increase in concurrent user capacity.",
+      ],
   },
 ];
 
-const testimonials: TTestimonial[] = [
+const testimonials: TTestimonial[] = [ 
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+        "Anay is an incredible communicator and problem-solver, always willing to help and share his expertise, making him a valuable resource for understanding complex topics with relative ease.",
+      name: "Manju Tiwari",
+      designation: "Senior Manager",
+      company: "DreamWeb India",
+      // image: "https://media.licdn.com/dms/image/D4D03AQEO1P7quIcbyg/profile-displayphoto-shrink_100_100/0/1683222236604?e=1710979200&v=beta&t=Azg5LCvfTo1FJrazWYxuBiXYgYW2mdvjKPsRp1RXHX8",
+    },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "TechStackify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+        "TechStackify is a MERN-GraphQL solution built by me in November 2023. It efficiently manages user interactions using Apollo Client and Context API, reducing processing time by 30%. The project also features visually appealing interfaces that reduce bounce rates by 20%. By implementing authentication, CRUD operations, voting, tagging, and pagination, error rates are decreased by 25%.",
+      tags: [
+          {
+              name: "ApolloClient",
+              color: "blue-text-gradient",
+          },
+          {
+              name: "ContextAPI",
+              color: "pink-text-gradient",
+          },
+          {
+              name: "MongoDB",
+              color: "red-text-gradient",
+          },
+          {
+              name: "ExpressJS",
+              color: "green-text-gradient",
+          },
+          {
+              name: "ReactJS",
+              color: "orange-text-gradient",
+          },
+          {
+              name: "NodeJS",
+              color: "purple-text-gradient",
+          },
+          {
+              name: "GraphQL",
+              color: "grey-text-gradient",
+          },
     ],
     image: carrent,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "HackWestern — Best Gaming Hack (Big Blue Bubble)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Led a 3-member team to develop an interactive animal welfare project Pashu, with WebGL & Unity frameworks, in C#.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+        {
+          name: "WebGL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Unity - Unreal Engine",
+          color: "green-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "pink-text-gradient",
+        },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
     sourceCodeLink: "https://github.com/",
   },
 ];
